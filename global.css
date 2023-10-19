@@ -1,0 +1,60 @@
+body {
+  background-image: linear-gradient(to right, rgba(74, 68, 177, 0.75), rgba(8, 24, 69, 0.8)), url(bild7.jpg);
+  background-size: cover;
+  padding: 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+nav .hamburger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+}
+nav .hamburger-menu .bar {
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+nav .nav-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  z-index: 1;
+}
+nav .nav-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+nav .nav-menu li a:hover {
+  background-color: #000000;
+}
+@media screen and (max-width: 768px) {
+  nav .hamburger-menu {
+    display: flex;
+  }
+  nav .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+  nav .nav-menu li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  nav #menu-toggle:checked ~ .nav-menu {
+    display: flex;
+  }
+}/*# sourceMappingURL=global.css.map */

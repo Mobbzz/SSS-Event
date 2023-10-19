@@ -1,0 +1,56 @@
+.event-detalj {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  background-color: rgb(25, 3, 59);
+}
+.event-detalj .event-namn {
+  font-size: 3em;
+  border: 16px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 16px;
+  color: wheat;
+  margin-bottom: 10px;
+  border-width: 1px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+.event-detalj .event-datum {
+  text-align: center;
+  color: wheat;
+}
+.event-detalj .event-dscr {
+  color: wheat;
+}
+.event-detalj .event-catgr {
+  margin: 10px 0;
+  position: relative;
+  left: 40px;
+  text-align: center;
+  color: wheat;
+}
+.event-detalj h2 {
+  margin-top: 20px;
+  color: wheat;
+  text-align: center;
+}
+.event-detalj .agenda {
+  color: wheat;
+  margin: 8%;
+}
+.event-detalj .event-img {
+  display: flex;
+  gap: 10px;
+}
+.event-detalj .event-img img {
+  width: 100px;
+  transition: transform 0.3s ease;
+}
+.event-detalj .event-img img:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=tjänster.css.map */

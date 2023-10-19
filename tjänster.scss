@@ -1,0 +1,64 @@
+.event-detalj {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    background-color: rgb(25, 3, 59);
+   
+
+    .event-namn {
+        font-size:3em;
+        border: 16px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 16px;
+        color: wheat;
+        margin-bottom: 10px;
+        border-width: 1px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-align: center
+    }
+
+    .event-datum{
+        text-align: center;
+        color: wheat;
+    }
+    .event-dscr{
+        color: wheat;
+    }
+    .event-catgr {
+        margin: 10px 0;
+        position: relative;
+        left: 40px;
+       text-align: center;
+       color: wheat;
+    }
+
+    h2 {
+        margin-top: 20px;
+        color:wheat;
+        text-align: center;
+       
+    }
+    .agenda{
+        color: wheat;
+        margin: 8%;
+    }
+
+    .event-img {
+        display: flex;
+        gap: 10px; 
+
+        img {
+            width: 100px; 
+            transition: transform 0.3s ease; 
+
+            &:hover {
+                transform: scale(1.1); 
+            }
+        }
+    }
+}

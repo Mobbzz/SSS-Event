@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="global.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <nav>
+        <label for="menu-toggle" class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <ul class="nav-menu">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="tjänster.html">Tjänster</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="about.html">Om oss</a></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <form action="#" method="post">
+
+            <div class="form-group">
+                <label for="eventName">Namn på event</label>
+                <input type="text" name="eventName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="eventDate">Datum</label>
+                <input type="date" name="eventDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Kort beskrivning</label>
+                <textarea name="description" rows="6" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="agenda">Agenda</label>
+                <textarea id="agenda" name="agenda" rows="6" required></textarea>
+            </div>
+
+            <div class="form-group-upld">
+                <label>Uppladdade bilder (max 4)</label>
+                <div><input type="file" name="images">
+                <input type="file" name="images"></div>
+                <div><input type="file" name="images">
+                <input type="file" name="images"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Kategori</label>
+                <select name="category" required>
+                    <option value="nöje">Nöje</option>
+                    <option value="utbildning">Upplevelse</option>
+                    <option value="afterwork">Festival</option>
+                    <option value="afterwork">Resa</option>
+                    <option value="afterwork">Film</option>
+                    <option value="afterwork">Spel</option>
+
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Skicka">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
