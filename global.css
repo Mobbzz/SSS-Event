@@ -1,10 +1,10 @@
 body {
-  background-image: linear-gradient(to right, rgba(74, 68, 177, 0.75), rgba(8, 24, 69, 0.8)), url(bild7.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(8, 24, 69, 0.8)), url(bild7.jpg);
   background-size: cover;
   padding: 20px;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
+  color: rgb(118, 4, 4);
   font-family: sans-serif;
 }
 
@@ -13,6 +13,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+}
+nav .menu-toggle {
+  visibility: hidden;
 }
 nav .hamburger-menu {
   display: none;

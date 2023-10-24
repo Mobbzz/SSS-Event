@@ -9,11 +9,15 @@ body{
         font-family: sans-serif,
      }
 
+
      nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 20px;
+        .menu-toggle{
+            visibility: hidden;
+         }
     
         .hamburger-menu {
             display: none;
